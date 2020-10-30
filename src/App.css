@@ -1,0 +1,91 @@
+.header-color{
+    background: #009FFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.landing-grid{
+    background: #009FFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.avatar-img{
+    /*display: inline;*/
+    /*margin: 0 auto;*/
+    /*margin-left: -25%;*/
+    height: 250px;
+    /*width: auto;*/
+    padding-top: 5em
+
+}
+
+/*.image-cropper{*/
+/*    width:250px;*/
+/*    height:250px;*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    border-radius: 100%;*/
+/*}*/
+
+.banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin:auto;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color:white;
+}
+
+.banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+    /*text-align: center;*/
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+/*Resume page*/
+.resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
+}
+
+/*About me page*/
+.about-col {
+    background: #27221F;
+    text-align: center;
+    color: white;
+}
+.about-col p {
+    font-size: 200%;
+}
