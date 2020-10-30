@@ -15,9 +15,9 @@ class Projects extends Component {
                     <CardTitle style={{
                         color: '#fff',
                         height: '176px',
-                        background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'
+                        background: 'url(https://miro.medium.com/max/500/1*Qbm5_d5EYIbYa1-jN4JmSg.jpeg) center / cover'
                     }}> C minus Compiler</CardTitle>
-                    <CardText>something somethign I just need stuff here for now</CardText>
+                    <CardText>This is my project wrote in python that makes a compiler for c minus.</CardText>
                     <CardActions border>
                         <Button colored>GitHub</Button>
                     </CardActions>
