@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 
 class About extends Component {
     render() {
-        return(<div>
+        return(<div className="aboutPage">
                 <Grid>
                     <Cell col={2}></Cell>
                     <Cell className="about-col" col ={8}><h1>About Me</h1>
